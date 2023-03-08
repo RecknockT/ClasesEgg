@@ -11,16 +11,20 @@ import java.util.Scanner;
  *
  * @author ffune
  */
-public class HolaMundo1 {
+public class HolaMundo4 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner leer = new Scanner(System.in);
-        System.out.println("Ingrese su nombre");
-        String nombre = leer.next();
-        System.out.println(nombre);
+    Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese un numero");
+        int numero = leer.nextInt();
+        System.out.println("El doble es:"+numero*2);
+        System.out.println("El doble es:"+numero*3);
+        System.out.println("Su raiz cuadrada es"+ Math.sqrt(numero));
+        
+        
     }
     
 }
