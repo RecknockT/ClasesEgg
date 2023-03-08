@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author ffune
  */
-public class HolaMundo1 {
+public class HolaMundo2 {
 
     /**
      * @param args the command line arguments
